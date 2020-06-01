@@ -81,8 +81,32 @@ main p a {
 
 .card {
   border: 1px solid red;
-  width: 100px;
-  text-align: center;
+  width: 200px;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card time {
+  position: absolute;
+  top: 40%;
+  padding-left: 12%;
+}
+
+.card span {
+
+  /* float: left; */
+  /* left: 90%; */
+}
+
+.card p time {
+
 }
 
 .container-aside {
@@ -148,7 +172,6 @@ main p a {
   justify-content: space-between;
   padding: 5px 20px;
 }
-
 
 
 
