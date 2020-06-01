@@ -146,8 +146,8 @@ main p a {
 }
 
 .trips-card-content {
-  width: 500px;
-  margin-left: 25%;
+  width: 800px;
+  margin-left: 10%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
