@@ -1,0 +1,177 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #EEFFFF;
+  position: relative;
+  /* color: black; */
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  border: 5px solid red;
+  /* background: #2F3038; */
+  /* width: 350px; */
+  /* height: 770px; */
+  /* overflow: auto; */
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  /* padding-top: 10px; */
+  /* margin-bottom: 5%; */
+}
+
+ /* nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  position: relative;
+  bottom: 5px;
+  margin: 0 1rem;
+} */
+
+nav img {
+  width: 40%;
+}
+
+/*
+.button {
+  background-color: #226287;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  outline-style: none;
+}
+
+nav .button {
+  color: #fff;
+}
+
+main .button {
+  color: #fff;
+}
+
+main img {
+  width: 40%;
+  height: 1%;
+  box-shadow: 10px rgba(0, 0, 0, 0.75);
+}
+
+main {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main section * {
+  margin: 40px 0;
+}
+
+main p a {
+  color: #008CBA;
+} */
+
+.card {
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+}
+
+.container-aside {
+  border: 5px solid black;
+  position: absolute;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  /* display: flex; */
+  /* float: right; */
+  /* margin: 0 auto; */
+  width: 1000px;
+  bottom: 10%;
+  left: 50%;
+  margin-left: -325px;
+  /* right: 3%; */
+}
+
+ /* height: 100px;
+ width: 100px;
+ position: absolute;
+ left: 50%;
+ margin-left: -50px;
+ top: 50%;
+ margin-top: -50px; */
+
+
+.container-stats {
+  border: 5px solid red;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.container-trips {
+  border: 5px solid red;
+}
+
+.trips-card-content {
+  width: 500px;
+  margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container {
+  /* border: 5px solid red; */
+  min-height: 100%;
+  /* background: #EEFFFF; */
+  background: #2F3038;
+  width: 350px;
+  /* background-size: cover; */
+}
+
+.home-text {
+  border: 5px solid red;
+  /* margin-right: 50px; */
+}
+
+.trips-card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+
+
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 20px;
+}
+
+footer {
+  background: #202028;
+  color: white;
+  line-height: 50px;
+}
+
+footer a {
+  color: #fff;
+}
