@@ -2,43 +2,27 @@
 html, body {
   height: 100%;
   margin: 0;
-  background: #EEFFFF;
+  background: #b3bfcd;
   position: relative;
-  /* color: black; */
+  font-family: Helvetica, sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
 }
+
 
 nav {
-  border: 5px solid red;
-  /* background: #2F3038; */
-  /* width: 350px; */
-  /* height: 770px; */
-  /* overflow: auto; */
-  /* justify-content: space-between; */
-  /* align-items: stretch; */
-  /* padding-top: 10px; */
-  /* margin-bottom: 5%; */
+  margin-left: 5%;
+  padding-top: 5%;
 }
 
- /* nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav ul li {
-  position: relative;
-  bottom: 5px;
-  margin: 0 1rem;
-} */
 
 nav img {
-  width: 40%;
+  width: 42.5%;
 }
 
-/*
 .button {
   background-color: #226287;
   padding: 5px 20px;
@@ -46,95 +30,48 @@ nav img {
   border: none;
   font-size: 16px;
   outline-style: none;
-}
-
-nav .button {
   color: #fff;
 }
 
-main .button {
-  color: #fff;
-}
-
-main img {
-  width: 40%;
-  height: 1%;
-  box-shadow: 10px rgba(0, 0, 0, 0.75);
-}
-
-main {
-  width: 800px;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-main section * {
-  margin: 40px 0;
-}
-
-main p a {
-  color: #008CBA;
-} */
 
 .card {
-  border: 1px solid red;
+  background: #f1f1f1;
+  /* border: 1px solid red; */
+  border-radius: 10px;
   width: 200px;
+  max-height: 110px;
   padding: 1%;
+  margin: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: justify;
+  box-shadow: 5px 5px;
+  cursor: pointer;
 }
+
+.add-card {
+  width: 140px;
+}
+
 
 .card p {
   margin: 0;
 }
 
-.card time {
-  position: absolute;
-  top: 40%;
-  padding-left: 12%;
-}
-
-.card span {
-
-  /* float: left; */
-  /* left: 90%; */
-}
-
-.card p time {
-
-}
 
 .container-aside {
-  border: 5px solid black;
+  /* border: 5px solid black;  ================================== */
   position: absolute;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
-  /* display: flex; */
-  /* float: right; */
-  /* margin: 0 auto; */
   width: 1000px;
-  bottom: 10%;
+  bottom: 8%;
   left: 50%;
   margin-left: -325px;
-  /* right: 3%; */
 }
-
- /* height: 100px;
- width: 100px;
- position: absolute;
- left: 50%;
- margin-left: -50px;
- top: 50%;
- margin-top: -50px; */
 
 
 .container-stats {
-  border: 5px solid red;
+  /* border: 5px solid red; ================================= */
   padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -142,37 +79,65 @@ main p a {
 }
 
 .container-trips {
-  border: 5px solid red;
+  background: #2F3038;
+  border-radius: 5px;
 }
 
 .trips-card-content {
   width: 800px;
-  margin-left: 10%;
+  overflow: auto;
+  height: 530px;
+  padding-left: 9%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  margin: 0 auto;
   flex-wrap: wrap;
+  padding-bottom: 4%;
 }
 
 .container {
   /* border: 5px solid red; */
   min-height: 100%;
-  /* background: #EEFFFF; */
   background: #2F3038;
   width: 350px;
-  /* background-size: cover; */
-}
-
-.home-text {
-  border: 5px solid red;
-  /* margin-right: 50px; */
 }
 
 .trips-card-header {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
+.trips-card-header #trips_title {
+  color: #f1f1f1;
+}
+
+
+.profile-info img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  margin-top: 10%;
+  color: #fff;
+}
+
+.profile-name a {
+  position: relative;
+  top: -15px;
+}
+
+.profile-name h3 {
+  position: relative;
+  top: -10px;
+}
 
 
 .footer {
@@ -191,7 +156,7 @@ main p a {
 
 footer {
   background: #202028;
-  color: white;
+  color: #fff;
   line-height: 50px;
 }
 
