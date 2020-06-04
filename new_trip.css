@@ -24,6 +24,24 @@ nav img {
   width: 42.5%;
 }
 
+input {
+  margin-top: 2%;
+  margin-bottom: 20px;
+  outline-style: none;
+  border: 3px solid #176287;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #202028;
+  color: #fff;
+  width: 450px;
+  height: 34px;
+}
+
+label {
+  display: inline-block;
+  margin: 9px 0 26px;
+}
+
 .action-buttons {
   display: flex;
   justify-content: flex-end;
@@ -45,7 +63,7 @@ nav img {
 }
 
 .container-aside {
-  position: absolute;
+  position: fixed;
   width: 1000px;
   bottom: 13%;
   left: 50%;
@@ -59,8 +77,14 @@ nav img {
   border-radius: 5px;
 }
 
+.label-input {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
 .trips-details-content {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 800px;
   height: 530px;
   margin: 0 auto;
@@ -84,12 +108,11 @@ nav img {
   color: #f1f1f1;
 }
 
-.trips-details-card {
-  border: 5px solid red;
-  display: flex;
-  justify-content: space-around;
+.trips-form-card {
+  /* border: 5px solid red; */
+  padding-top: 35px;
   font-size: 24px;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
 }
 
 
