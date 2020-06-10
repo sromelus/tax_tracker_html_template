@@ -60,7 +60,7 @@ nav img {
 }
 
 .trips-details-content {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 800px;
   height: 530px;
   margin: 0 auto;
@@ -85,7 +85,7 @@ nav img {
 }
 
 .trips-details-card {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: flex;
   justify-content: space-around;
   font-size: 24px;
